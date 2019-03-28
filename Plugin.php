@@ -21,7 +21,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'ogimagetag',
             'description' => 'No description provided yet...',
-            'author'      => 'TallPro',
+            'author'      => 'Tallpro',
             'icon'        => 'icon-leaf'
         ];
     }
