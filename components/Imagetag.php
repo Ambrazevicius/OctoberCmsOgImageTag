@@ -1,4 +1,4 @@
-<?php namespace TallPro\Ogimagetag\Components;
+<?php namespace Tallpro\Ogimagetag\Components;
 
 use Cms\Classes\ComponentBase;
 use Tallpro\BlogComments\Models\Settings;

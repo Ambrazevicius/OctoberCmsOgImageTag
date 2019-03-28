@@ -1,4 +1,4 @@
-<?php namespace TallPro\Ogimagetag\Models;
+<?php namespace Tallpro\Ogimagetag\Models;
 
 use Model;
 

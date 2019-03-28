@@ -1,4 +1,4 @@
-<?php namespace TallPro\Ogimagetag;
+<?php namespace Tallpro\Ogimagetag;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -45,7 +45,7 @@ class Plugin extends PluginBase
                 'label'       => 'OG image tag',
                 'icon'        => 'icon-comments-o',
                 'description' => 'Manage OG image tag Settings.',
-                'class'       => 'TallPro\Ogimagetag\Models\Settings',
+                'class'       => 'Tallpro\Ogimagetag\Models\Settings',
                 'order'       => 60
             ]
         ];
@@ -69,7 +69,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'TallPro\Ogimagetag\Components\Imagetag' => 'OGimageTag',
+            'Tallpro\Ogimagetag\Components\Imagetag' => 'OGimageTag',
         ];
     }
 
